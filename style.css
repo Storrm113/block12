@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(10, 126, 54);
+}
+a,
+h1,
+h2,
+h3 {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.persistent-header {
+  background-color: rgb(10, 126, 54);
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.footer-nav {
+  text-align: center;
+  color: black;
+}
+.footer-list {
+  color: black;
+}
+.links-list li {
+  display: inline-block;
+}
+.links-list a {
+  color: black;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.main-content {
+  width: 75%;
+  margin: 0 auto;
+  background-color: rgb(51, 173, 98);
+  padding: 10px 60px 45px;
+}
+.main-content > h2 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.main-content > hr {
+  margin-bottom: 25px;
+}
+.main-content section {
+  background-color: rgb(151, 248, 203);
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.main-content section hr {
+  width: 90%;
+  margin: 0 auto;
+  border-color: red;
+}
+.main-content section h3 {
+  margin-left: 5%;
+  font-size: 28px;
+  font-weight: 700;
+}
+.section-content {
+  padding: 13px;
+  padding-left: 5%;
+}
+.section-content p {
+  margin: 10px;
+  margin-left: 0;
+  line-height: 1.4;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.section-content img {
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+section:nth-of-type(2) .section-content img {
+  float: left;
+  margin-left: 0;
+  margin-right: 10px;
+}
+h4 {
+  text-align: center;
+  color: black;
+}
+
+.links-list-footer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.links-list-footer a {
+  color: black;
+}
+
+.footer{
+    position: fixed;
+    height: 45px;
+    background-color: rgb(10, 126, 54);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
